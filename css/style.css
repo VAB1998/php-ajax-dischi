@@ -1,0 +1,15 @@
+body{
+    background-color: #1e2d3b;
+}
+
+#albums .cs_album{
+    /* Style */
+    background-color: #2e3a46;
+    color: #ffffff;
+    /* Hover Effect */
+    transition: .3s linear;
+}
+
+#albums .cs_album:hover{
+    background-color: #252f39;
+}
