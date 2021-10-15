@@ -10,6 +10,17 @@
 <?php
 include __DIR__ . "/db/database.php"
 ?>
-
+<?php foreach($decodedData as $key => $value){ ?>
+    
+    <div class="album_card">
+    <img src="<?php echo $value['poster']; ?>" alt="">
+    <?php
+    echo $value['title'];
+    echo $value['author'];
+    echo $value['genre'];
+    echo $value['year'];
+    } ?>
+    </div>
+    
 </body>
 </html>
