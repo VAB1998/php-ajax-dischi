@@ -3,6 +3,6 @@
     // Takes a JSON encoded string and converts it into a PHP variable.
     // Using -true- JSON Objects are turned into associatives array
     $decodedData = json_decode($data, true);
-    var_dump($decodedData);  
+    // var_dump($decodedData);  
     // echo $decodedData[0]['title']
 ?>
