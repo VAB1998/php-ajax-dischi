@@ -7,6 +7,9 @@
     <title>Ajax Dischi</title>
 </head>
 <body>
-    
+<?php
+include __DIR__ . "/db/database.php"
+?>
+
 </body>
 </html>
